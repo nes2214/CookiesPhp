@@ -1,11 +1,13 @@
 
 <!DOCTYPE html>
 <html lang="es">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
 </head>
 <body>
+  <?php include 'navbar.php'; ?>
   <h2>Iniciar sesión</h2>
 
   <?php

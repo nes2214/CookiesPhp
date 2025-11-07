@@ -16,6 +16,7 @@ if (isset($_POST['colorFondo'])) {
 
 <!DOCTYPE html>
 <html lang="es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
     <meta charset="UTF-8">
     <title>Selección de color de fondo</title>

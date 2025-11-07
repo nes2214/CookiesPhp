@@ -16,6 +16,7 @@ $colorFondo = isset($_SESSION['colorFondo']) ? $_SESSION['colorFondo'] : '';
 
 <!DOCTYPE html>
 <html lang="es">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
     <meta charset="UTF-8">
     <title>Selección de color de fondo</title>
@@ -23,6 +24,7 @@ $colorFondo = isset($_SESSION['colorFondo']) ? $_SESSION['colorFondo'] : '';
 
 
 <body bgcolor="<?= htmlspecialchars($colorFondo) ?>">
+    <?php include 'navbar.php'; ?>
     <h1>Selecciona el color de fondo de la página</h1>
 
     <form method="post">              

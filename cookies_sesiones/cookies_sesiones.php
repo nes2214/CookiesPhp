@@ -34,7 +34,7 @@
       <div class="card text-bg-dark border-secondary shadow-sm">
         <div class="card-body">
           <h1 class="card-title h4 text-primary">Contador visitas</h1>
-          <p class="card-text">Página per que compta visites</p>
+          <p class="card-text">Página que mitjançant les cookies, compta el número de vegades que s'ha accedita a la pàgina, també te un botó per poder borrar les cookies</p>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
       <div class="card text-bg-dark border-secondary shadow-sm">
         <div class="card-body">
           <h1 class="card-title h4 text-info">Fondo sesión</h1>
-          <p class="card-text">En l'apartat de cookies i sessions hi han exercicis relacionats amb la gestió de dades.</p>
+          <p class="card-text">Página que permet cambiar el fons de pantalla mitjançant sesions i guardar-ho per a alte pagina.</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
       <div class="card text-bg-dark border-secondary shadow-sm">
         <div class="card-body">
           <h1 class="card-title h4 text-warning">Formulario 409</h1>
-          <p class="card-text">En aquest apartat trobaràs exercicis d'autenticació i permisos d'usuari.</p>
+          <p class="card-text">Página que rep dades d'un formulari, y amb les sessions guarda les dades y les mostr en una taula.</p>
         </div>
       </div>
     </div>

@@ -1,12 +1,13 @@
 
 <!DOCTYPE html>
 <html lang="es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
     <meta charset="UTF-8">
     <title>Subida de archivo (404)</title>
 </head>
 <body>
-    
+    <?php include 'navbar.php'; ?>
     <h1>Subida de archivo al servidor</h1>
 
     <form action="405subidaImagen.php" method="post" enctype="multipart/form-data">

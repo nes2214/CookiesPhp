@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
   <meta charset="UTF-8">
   <title>409 - Formulario 1</title>
 </head>
 <body>
+  <?php include 'navbar.php'; ?>
   <h1>Formulario 1</h1>
   <form action="409formulario2.php" method="post">
     <p><label>Nombre y apellidos:

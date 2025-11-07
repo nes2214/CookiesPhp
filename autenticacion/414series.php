@@ -10,11 +10,13 @@ $series = $_SESSION['series'] ?? [];
 ?>
 <!DOCTYPE html>
 <html lang="es">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
   <meta charset="UTF-8">
   <title>Listado de Series</title>
 </head>
 <body>
+  <?php include 'navbar.php'; ?>
   <h1>Listado de Series</h1>
 
   <nav>

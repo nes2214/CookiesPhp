@@ -17,11 +17,13 @@ echo "<p>Has accedido a esta página <strong>$accesosPagina</strong> veces.</p>"
 <!DOCTYPE html>
 <html lang="es">
 <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
     <meta charset="UTF-8">
     
 </head>
 <body>
+    <?php include 'navbar.php'; ?>
     <h1>Subida de archivo al servidor</h1>
 
     <form action="405subidaImagen.php" method="post" enctype="multipart/form-data">

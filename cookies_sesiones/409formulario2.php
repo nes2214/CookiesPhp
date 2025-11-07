@@ -10,11 +10,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html>
 <html lang="es">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
   <meta charset="UTF-8">
   <title>409 - Formulario 2</title>
 </head>
 <body>
+  <?php include 'navbar.php'; ?>
   <h1>Formulario 2</h1>
   <form action="409formulario3.php" method="post">
     <p><label>Número de convivientes:

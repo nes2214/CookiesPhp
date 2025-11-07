@@ -1,5 +1,5 @@
 <?php
-if($_SERVER['REQUEST_METHOD'] == POST){
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['altura']) && isset($_POST['anchura'])){
         $altura = filter_input(INPUT_POST, 'altura', FILTER_SANITIZE_NUMBER_FLOAT);
         $anchura = filter_input(INPUT_POST, 'anchura', FILTER_SANITIZE_NUMBER_FLOAT);

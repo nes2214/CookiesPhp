@@ -12,11 +12,13 @@ $peliculas = $_SESSION['peliculas'] ?? [];
 ?>
 <!DOCTYPE html>
 <html lang="es">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
 <head>
   <meta charset="UTF-8">
   <title>Listado de Películas</title>
 </head>
 <body>
+  <?php include 'navbar.php'; ?>
   <h1>Listado de Películas</h1>
 
   <nav>
